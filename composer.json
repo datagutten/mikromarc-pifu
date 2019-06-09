@@ -5,7 +5,7 @@
     "require": {
         "datagutten/pifu-php": "^1.1"
     },
-    "license": "GPL3",
+    "license": "GPL-3.0-or-later",
     "authors": [
         {
             "name": "datagutten",
