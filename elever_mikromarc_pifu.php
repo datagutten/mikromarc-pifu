@@ -1,5 +1,5 @@
 <?php
-function encodeCSV(&$value, $key){ //Funksjon for å lage riktig tegnsett for windows (http://stackoverflow.com/questions/12488954/php-fputcsv-encoding)
+function encodeCSV(&$value){ //Funksjon for å lage riktig tegnsett for windows (http://stackoverflow.com/questions/12488954/php-fputcsv-encoding)
 	if(!is_string($value))
 		$value='';
 	else
