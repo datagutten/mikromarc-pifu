@@ -1,0 +1,55 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "39fd013d8e4a336f942e8aec8dff2423",
+    "packages": [
+        {
+            "name": "datagutten/pifu-php",
+            "version": "v1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/datagutten/pifu-php.git",
+                "reference": "3f98609b00d2e176a4e840ff5c34d86a4aa61d28"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/datagutten/pifu-php/zipball/3f98609b00d2e176a4e840ff5c34d86a4aa61d28",
+                "reference": "3f98609b00d2e176a4e840ff5c34d86a4aa61d28",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "pifu_parser.class.php",
+                    "pifu_parser_cache.class.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-3.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "datagutten",
+                    "email": "datagutten@datagutten.net"
+                }
+            ],
+            "description": "A PHP class to work with the PIFU (Flow of person-related information in education) format",
+            "time": "2019-06-09T08:02:28+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
