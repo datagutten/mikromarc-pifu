@@ -2,6 +2,9 @@
     "name": "datagutten/mikromarc-pifu",
     "description": "Et script for å gjøre om elevdata fra et skoleadministrativt system i PIFU format til CSV beregnet for mikromarc biblioteksystem",
     "type": "project",
+    "require": {
+        "datagutten/pifu-php": "^1.1"
+    },
     "license": "GPL3",
     "authors": [
         {

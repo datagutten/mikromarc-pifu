@@ -8,7 +8,7 @@ function encodeCSV(&$value, $key){ //Funksjon for å lage riktig tegnsett for wi
 		$value=str_replace('"','',$value);
 }
 
-require 'pifu-php/pifu_parser.class.php';
+require 'vendor/autoload.php';
 $pifu=new pifu_parser;
 
 $fp=fopen(dirname(__FILE__).'/elever_mikromarc.csv','w+'); //Åpne utfil
